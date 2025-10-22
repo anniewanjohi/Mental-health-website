@@ -3,8 +3,8 @@ include('../includes/header.php');
 ?>
 
 <div class="page-content">
-    <h1>Mental Health Resources</h1>
-    <p>This is where articles will be added.</p>
+    <h1>About Our Project</h1>
+    <p>This section will describe the purpose of the website and the team behind it.</p>
 </div>
 
 <?php
