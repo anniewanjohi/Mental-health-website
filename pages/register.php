@@ -1,5 +1,5 @@
 <?php
-require_once '../Database/Database.php';
+require_once '../Backend/database.php';
 
 $db = Database::getInstance();
 $conn = $db->getConnection();
@@ -276,4 +276,4 @@ if (isset($_POST['register'])) {
   </div>
 </div>
 
-<?php require_once '../Layout/footer.php'; ?>
+<?php require_once '../includes/footer.php'; ?>
