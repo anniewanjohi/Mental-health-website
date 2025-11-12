@@ -144,7 +144,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </a>
                         </div>
 
-                        <!-- Divider -->
+                        
                         <div class="text-center text-muted my-3">
                             <small>─────── or ───────</small>
                         </div>
