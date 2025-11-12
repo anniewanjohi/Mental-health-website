@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <p class="text-muted mb-0">Log in to access your account</p>
                         </div>
 
-                        <!-- Message Alert -->
+                        
                         <?php if (!empty($message)): ?>
                             <div class="alert alert-<?= $messageType ?> alert-dismissible fade show" role="alert">
                                 <i class="bi bi-<?= $messageType === 'success' ? 'check-circle' : ($messageType === 'warning' ? 'exclamation-triangle' : 'x-circle') ?> me-2"></i>

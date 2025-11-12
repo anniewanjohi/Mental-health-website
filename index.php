@@ -102,7 +102,7 @@
     </div>
 </div>
 
-<!-- Why Choose Us Section -->
+
 <div class="py-5 bg-white">
     <div class="container py-5">
         <h2 class="text-center display-5 fw-bold text-primary mb-5">Why Choose Us?</h2>

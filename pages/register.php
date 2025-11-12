@@ -73,7 +73,7 @@ if (isset($_POST['register'])) {
                 <div class="card border-0 shadow-lg rounded-4">
                     <div class="card-body p-4 p-md-5">
                         
-                        <!-- Header -->
+                        
                         <div class="text-center mb-4">
                             <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
                                 <i class="bi bi-person-plus fs-1"></i>

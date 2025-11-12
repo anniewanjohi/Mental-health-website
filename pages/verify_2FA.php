@@ -4,7 +4,7 @@ require_once '../Backend/database.php';
 
 session_start(); 
 
-// Check if user came from login page
+
 if (!isset($_SESSION['pending_email'])) {
     header("Location: login.php");
     exit();
