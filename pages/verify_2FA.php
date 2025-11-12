@@ -241,6 +241,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<?php require_once '../Layout/footer.php'; ?>
+<?php require_once '../includes/footer.php'; ?>
 </body>
 </html>
