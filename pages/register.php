@@ -24,7 +24,7 @@ if (isset($_POST['register'])) {
         $messageType = "danger";
     } else {
         try {
-            // Check if email already exists
+            
             $checkStmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
             $checkStmt->execute([$email]);
 
