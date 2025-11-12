@@ -14,7 +14,7 @@ function sendOTPEmail($recipientEmail, $recipientName, $otp) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mental_health.team@gmail.com'; // Your Gmail
+        $mail->Username = 'smartevent.reservation.team@gmail.com'; // Your Gmail
         $mail->Password = 'ykbx evhk ucog qala'; // Your App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
@@ -71,7 +71,7 @@ function sendOTPEmail($recipientEmail, $recipientName, $otp) {
 
 // Return config array for other uses
 return [
-    'email' => 'mental_health.team@gmail.com',
+    'email' => 'smartevent.reservation.team@gmail.com',
     'password' => 'ykbx evhk ucog qala',
     'app_name' => 'Mental Health Support'
 ];
