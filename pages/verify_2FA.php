@@ -1,6 +1,6 @@
 <?php 
-require_once '../Layout/header.php'; 
-require_once '../Database/database.php'; 
+require_once '../includes/header.php'; 
+require_once '../Backend/database.php'; 
 
 session_start(); 
 
