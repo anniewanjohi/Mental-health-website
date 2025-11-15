@@ -33,7 +33,7 @@ function sendOTPEmail($recipientEmail, $recipientName, $otp) {
         $mail->setFrom('smartevent.reservation.team@gmail.com', 'Mental Health Support');
         $mail->addAddress($recipientEmail);
         
-        // Content
+        
         $mail->isHTML(true);
         $mail->Subject = 'Your Login OTP Code - Mental Health Website';
         $mail->Body = "
